@@ -13,7 +13,6 @@ services:
       - MYSQL_ROOT_PASSWORD_FILE=/run/secrets/db_root_password
     volumes:
       - /storage/mysql/go:/var/lib/mysql
-      - ./conf:/etc/mysql/conf.d
     secrets:
       - db_user
       - db_password
