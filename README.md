@@ -25,8 +25,8 @@
  
 ## How to use this compose
 ### Managing Secrets with Docker Compose
-In this setup, we utilize Docker Compose's secret management functionality to securely handle sensitive information such as the MySQL instance's user password, root password, and username. This approach enhances security by avoiding the direct inclusion of plain text credentials in the docker-compose.yml file.
-**Directory Structure**
+In this setup, we utilize Docker Compose's secret management functionality to securely handle sensitive information such as the MySQL instance's user password, root password, and username. This approach enhances security by avoiding the direct inclusion of plain text credentials in the docker-compose.yml file.<br>
+**Directory Structure**<br>
 The directory should include the following files and subdirectories:
 ```
 .
