@@ -12,7 +12,7 @@ services:
       - MYSQL_PASSWORD_FILE=/run/secrets/db_password
       - MYSQL_ROOT_PASSWORD_FILE=/run/secrets/db_root_password
     volumes:
-      - /storage/mysql/go:/var/lib/mysql
+      - "${Your_Volume_Path}:/var/lib/mysql"
     secrets:
       - db_user
       - db_password
